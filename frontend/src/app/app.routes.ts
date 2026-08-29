@@ -5,5 +5,5 @@ import { Registro } from './pages/registro/registro';
 export const routes: Routes = [
     { path: '', redirectTo: '/login', pathMatch: 'full' },
     { path: 'login', component: LoginComponent },
-    { path: 'Registro', component: Registro }
+    { path: 'registro', component: Registro }
 ];
